@@ -4,6 +4,7 @@
 /* Importing other css files to main css file */
 @import url("sections/header.css");
 @import url("sections/hero.css");
+@import url("sections/about.css");
 
 :root {
     --playfair-display: "Playfair Display", serif;
@@ -39,6 +40,34 @@ a {
   align-items: center;
 }
 
+.sushi__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--primary-color);
+  opacity: 0.8;
+  letter-spacing: -0.01em;
+}
+
+.sushi__title {
+  font-size: 64px;
+  font-weight: 600;
+  font-family: var(--playfair-display);
+  color: var(--secondary-color);
+  margin-top: 16px;
+}
+
+.sushi__description {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--plus-jakarta-sans);
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: var(--secondary-color);
+  opacity: 0.8;
+  margin: 32px 0px;
+}
+
 /* START: hero media queries */
 @media screen and (max-width: 1060px) {
     .hero {
@@ -50,14 +79,14 @@ a {
   
       transform: matrix(1, 0.05, 0, 1.25, 0, 0) !important;
     }
-  }
+}
   
   @media screen and (max-width: 750px) {
     .hero-image h2 {
       font-size: 70px;
       line-height: 90px;
     }
-  }
+}
   
   @media screen and (max-width: 550px) {
     .hero-image h2 {
@@ -84,5 +113,5 @@ a {
     .hero-content__testimonial {
       padding: 32px;
     }
-  }
-  /* END: hero media queries */
+}
+/* END: hero media queries */
