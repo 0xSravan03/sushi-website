@@ -14,6 +14,8 @@
     --primary-color: #b1454a;
     --secondary-color: #121212;
     --color-white: #fff;
+    --black-500: #555555;
+    --gray-100: #888888;
 }
 
 /* Resetting default browser settings */
