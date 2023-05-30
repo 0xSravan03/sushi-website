@@ -2,7 +2,7 @@
 # Sushi Store
 
 ## About
-A Sushi Store website using HTML and CSS (using Vite).
+A Sushi Store website using HTML and CSS (using Vite) with responsiveness and animations.
 
 ## Installation
 
@@ -47,3 +47,4 @@ https://my-sushi-store.vercel.app/
 1. Setup a Nextjs 13 project with typescript
 2. Use new app router feature
 3. Client side components & Server side components
+4. CSS Bem naming
