@@ -34,7 +34,9 @@ https://my-sushi-store.vercel.app/
 ## Screenshots
 
 ![Sushi1](./screenshots/sushi-1.png)
+
 ![Sushi2](./screenshots/sushi-2.png)
+
 ![Sushi3](./screenshots/sushi-3.png)
 
 
