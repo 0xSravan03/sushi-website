@@ -7,11 +7,13 @@ A Sushi Store website using HTML and CSS (using Vite).
 ## Installation
 
 1. Clone the repository
+
     ```bash
     git clone https://github.com/0xSravan03/sushi-website.git
     cd sushi-website
     ```
 2. Install dependency
+
     ```bash
     npm install
     ```
